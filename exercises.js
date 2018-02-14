@@ -67,6 +67,12 @@ while (i < tvShows.length) {
 
 */
 
+var i = 1;
+
+while (i < 10) {
+	console.log(i + " x 3 = " + (i*3));
+	i++;
+}
 
 
 
