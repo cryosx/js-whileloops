@@ -104,6 +104,22 @@ devleague homie!
 ...
 ...*/
 
+var i = 1;
+while (i < 101) {
+	if (i % 15 === 0) {
+		console.log("devleague homie!");
+	} else if (i % 3 === 0) {
+		console.log("dev");
+
+	} else if (i % 5 === 0) {
+		console.log("league");
+
+	} else {
+		console.log(i);
+
+	}
+	i++;
+}
 
 /*
  * #6
